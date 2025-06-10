@@ -1,9 +1,8 @@
-// Mengecek apakah browser mendukung service worker
+// app.js
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
-    // Registrasi file sw.js
-    navigator.serviceWorker.register('/sw.js')
-      .then(reg => console.log('Service Worker terdaftar:', reg.scope))
-      .catch(err => console.log('Gagal daftar Service Worker:', err));
-  });
+    navigator.serviceWorker.register('sw.js')
+      .then(reg => console.log('✅ Service Worker terdaftar di:', reg.scope))
+      .catch(err => console.error('❌ Gagal daftar Service Worker:', err));
+  });
 }
