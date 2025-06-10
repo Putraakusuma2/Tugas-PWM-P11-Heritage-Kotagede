@@ -1,0 +1,54 @@
+/*CSS Index*/
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+  }
+  .slideshow-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* mengatur tinggi slideshow sesuai dengan tinggi layar */
+    overflow: hidden;
+  }
+  .slideshow-slide img {
+    width: 100%;
+    height: 100%; /* menytesuaikan gamabr dengan tinggi slideshow */
+    object-fit: cover;
+  }
+  @media (max-width: 768px) {
+    .slideshow-container {
+      height: 50vh; /* Tinggi lebih kecil untuk perangkat mobile */
+    }
+    .slideshow-slide img {
+      height: 50vh; /* Sesuaikan tinggi gambar untuk perangkat mobile */
+    }
+    .welcome-section {
+      padding: 1rem;
+    }
+    .welcome-section h2 {
+      font-size: 1.5rem;
+    }
+    .welcome-section p {
+      font-size: 1rem;
+    }
+  }
+
+  /*CSS Daftar*/
+  .building-card {
+    background: white;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #dee2e6;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.05);
+    text-align: left;
+  }
+  .building-card img {
+    width: 100%;
+    height: 200px; /* Atur tinggi gambar agar seragam */
+    object-fit: cover; /* Memastikan gambar memenuhi area tanpa distorsi */
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+  }
