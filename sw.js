@@ -1,6 +1,6 @@
 const CACHE_NAME = "heritage-v1";
 const FILES_TO_CACHE = [
-  '/',
+  '/app.js',
   '/index.html',
   '/daftar.html',
   '/styles.css',
