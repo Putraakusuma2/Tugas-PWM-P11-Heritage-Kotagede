@@ -11,10 +11,7 @@ const FILES_TO_CACHE = [
   '/images/pendopoagung-luthfi.jpg',
   '/images/omahpersik.png',
   '/images/omahindise2.jpg',
-  '/images/ndalemnatan.jpg',
-  'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css',
-  'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js',
-  'https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css'
+  '/images/ndalemnatan.jpg'
 ];
 
 self.addEventListener("install", event => {
